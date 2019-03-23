@@ -76,7 +76,7 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "欢迎来到杭电助手"
+    title = "杭电校园新媒体的先行者"
     subtitle = "杭电助手的官方网站"
     buttonText = "关注微信公众号"
 
@@ -90,22 +90,43 @@ googleAnalytics = ""
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
+      icon = "fa-calendar"
       title = "今日课表"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
+      icon = "fa-pencil-square-o"
       title = "离校登记"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
+      icon = "fa-sun-o"
       title = "阳光长跑"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-credit-card"
+      title = "一卡通"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-book"
+      title = "考试安排"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-file-text-o"
+      title = "期末成绩"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+
+
 
 
 
