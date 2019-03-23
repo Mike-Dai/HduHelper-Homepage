@@ -49,11 +49,11 @@ googleAnalytics = ""
     brand = "Hdu Helper"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "Services"
-    portfolio = "Portfolio"
-    about = "About"
-    team = "Team"
-    contact = "Contact"
+    services = "服务"
+    #portfolio = "Portfolio"
+    about = "大事记"
+    team = "团队"
+    contact = "联系我们"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -67,8 +67,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
+      url = "https://help.hduhelp.com/"
+      name = "更多"
       weight = 10
 
 
@@ -149,8 +149,8 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "团队"
+    subtitle = "各部门介绍"
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
@@ -158,7 +158,7 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "1.jpg"
-      name = "Kay Garland"
+      name = "主席团"
       position = "Lead Designer"
       reportsTo = "CTO"
       livesIn = "[Munich, Germany](#some-maps-url)"
@@ -168,8 +168,8 @@ googleAnalytics = ""
         "Open Source [community management](#)"
       ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """主席团是杭电助手的掌舵人，把握着社团的发展方向，全面主持社团的工作、把控社联的发展方向，对社团日常事务、大型活动和人力资源进行宏观调控，负责检查、督促和协调各部门的工作，并及时做出总结和提出建设性意见。
+"""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
@@ -178,23 +178,25 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.team.members]]
       img = "2.jpg"
-      name = "Larry Parker"
+      name = "前端部"
       position = "Lead Marketer"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
+      bio = """他们是炫酷网页与手机端页面的开发者，在HTML、CSS、JS等各种计算机语言buff加成下，各式各样的界面被编写出来。前端部的工作常与后台部紧密联系。"""
 
     [[params.team.members]]
       img = "3.jpg"
-      name = "Diana Pertersen"
+      name = "后台部"
       position = "Lead Developer"
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
+      bio = """他们是数据的掌控者，主要负责服务器应用的开发和维护。后台部不仅仅是一个敲代码的部门，更是一个不断学习，互帮互助的团队。在这里，通过完成大大小小的项目，你能提前学习甚至学到课堂上学不到的知识，在团队协作中学会应用开发与系统维护。"""
 
   # Client section
     [params.clients_list]
