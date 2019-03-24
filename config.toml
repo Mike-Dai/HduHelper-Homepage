@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Hdu Helper"
+title = "HduHelp"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
@@ -46,7 +46,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Hdu Helper"
+    brand = "HduHelp"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "服务"
@@ -171,25 +171,25 @@ googleAnalytics = ""
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "2.jpg"
+      img = "qing-chun-bang-yang.png"
       date = "2014-5"
       title = "荣获杭州电子科技大学“青春榜样”"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "3.jpg"
+      img = "tencent-weixiao-quan-guo-gao-xiao-gong-zhong-hao-pai-hang.jpg"
       date = "2016-9"
       title = "腾讯微校全国高校公众号排行榜第七"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "4.jpg"
+      img = "hong-chuan-bei.jpg"
       date = "2016-10"
       title = "社团招新系统“红船杯”获奖"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "3.jpg"
+      img = "tencent-weixiao-quan-guo-gao-xiao-gong-zhong-hao-pai-hang-2016-nian-du-bang-fu-wu-hao-pai-hang-bang-di-yi.jpg"
       date = "2016-12"
       title = "腾讯微校2016高校服务号排行榜榜首"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
@@ -208,7 +208,7 @@ googleAnalytics = ""
     #center = true
     title = "团队"
     subtitle = "各部门介绍"
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    #description = "Lorem ipsum dolor sit amet, #consectetur adipisicing elit. Aut eaque, #laboriosam veritatis, quos non quis ad #perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
