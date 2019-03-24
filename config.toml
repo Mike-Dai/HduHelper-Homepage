@@ -22,9 +22,9 @@ googleAnalytics = ""
   # email = "your@email.com"
 
   # Link custom assets relative to /static
-  custom_css = []
+  custom_css = ["css/custom_style.css"]
   custom_js  = []
-  favicon    = "favicon.ico"
+  favicon    = "img/logo.jpg"
 
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
@@ -125,6 +125,24 @@ googleAnalytics = ""
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       url = "#"
 
+    [[params.services.row.list]]
+      icon = "fa-search"
+      title = "万能查询"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-check-circle-o"
+      title = "自助报到"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-home"
+      title = "社团招新"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      url = "#"
+
 
 
 
@@ -153,8 +171,26 @@ googleAnalytics = ""
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
+      img = "2.jpg"
+      date = "2014-5"
+      title = "荣获杭州电子科技大学“青春榜样”"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
       img = "3.jpg"
-      date = "2016"
+      date = "2016-9"
+      title = "腾讯微校全国高校公众号排行榜第七"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "2016-10"
+      title = "社团招新系统“红船杯”获奖"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "2016-12"
       title = "腾讯微校2016高校服务号排行榜榜首"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
@@ -178,7 +214,7 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
+      img = "logo.jpg"
       name = "主席团"
       position = "Lead Designer"
       reportsTo = "CTO"
@@ -192,13 +228,12 @@ googleAnalytics = ""
       bio = """主席团是杭电助手的掌舵人，把握着社团的发展方向，全面主持社团的工作、把控社联的发展方向，对社团日常事务、大型活动和人力资源进行宏观调控，负责检查、督促和协调各部门的工作，并及时做出总结和提出建设性意见。
 """
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-qq", "#"],
+        ["fa-weixin", "#"],
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
+      img = "logo.jpg"
       name = "前端部"
       position = "Lead Marketer"
       social = [
@@ -209,11 +244,11 @@ googleAnalytics = ""
       bio = """他们是炫酷网页与手机端页面的开发者，在HTML、CSS、JS等各种计算机语言buff加成下，各式各样的界面被编写出来。前端部的工作常与后台部紧密联系。"""
 
     [[params.team.members]]
-      img = "3.jpg"
+      img = "logo.jpg"
       name = "后台部"
       position = "Lead Developer"
       social = [
-        ["fa-twitter", "#"],
+        ["fa-github", "#"],
         ["fa-facebook", "#"],
         ["fa-linkedin", "#"]
       ]
