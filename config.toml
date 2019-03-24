@@ -153,7 +153,7 @@ googleAnalytics = ""
     enable = true
     title = "大事记"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "加入<br>我们<br>!!!"
+    endpoint = "2019<br>我们继续<br>前行"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -216,16 +216,17 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "logo.jpg"
       name = "主席团"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      position = "杭电助手的掌舵人"
+     #reportsTo = "CTO"
+     #livesIn = "[Munich, Germany](#some-maps-url)"
+      
+      #scope = [
+      #  "UX for [member dashboard](#)",
+      #  "Maintainer for [awesome-project](#)",
+      #  "Open Source [community management](#)"
+      #]
       # For bio markdown and even multiline strings are available.
-      bio = """主席团是杭电助手的掌舵人，把握着社团的发展方向，全面主持社团的工作、把控社联的发展方向，对社团日常事务、大型活动和人力资源进行宏观调控，负责检查、督促和协调各部门的工作，并及时做出总结和提出建设性意见。
+      bio = """主席团把握着社团的发展方向，全面主持社团的工作、把控社联的发展方向，对社团日常事务、大型活动和人力资源进行宏观调控，负责检查、督促和协调各部门的工作，并及时做出总结和提出建设性意见。
 """
       social = [
         ["fa-qq", "#"],
@@ -234,25 +235,69 @@ googleAnalytics = ""
 
     [[params.team.members]]
       img = "logo.jpg"
-      name = "前端部"
-      position = "Lead Marketer"
+      name = "后台部"
+      position = "负责后台开发"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-github", "#"],
+        ["fa-qq", "#"],
+        ["fa-weixin", "#"]
+      ]
+      bio = """他们是数据的掌控者，主要负责服务器应用的开发和维护。后台部不仅仅是一个敲代码的部门，更是一个不断学习，互帮互助的团队。在这里，通过完成大大小小的项目，你能提前学习甚至学到课堂上学不到的知识，在团队协作中学会应用开发与系统维护。"""
+
+    [[params.team.members]]
+      img = "logo.jpg"
+      name = "前端部"
+      position = "负责前端开发"
+      social = [
+        ["fa-github", "#"],
+        ["fa-qq", "#"],
+        ["fa-weixin", "#"]
       ]
       bio = """他们是炫酷网页与手机端页面的开发者，在HTML、CSS、JS等各种计算机语言buff加成下，各式各样的界面被编写出来。前端部的工作常与后台部紧密联系。"""
 
     [[params.team.members]]
       img = "logo.jpg"
-      name = "后台部"
-      position = "Lead Developer"
+      name = "设计部"
+      position = "审美艺术的创造者"
       social = [
-        ["fa-github", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        
+        ["fa-qq", "#"],
+        ["fa-weixin", "#"]
       ]
-      bio = """他们是数据的掌控者，主要负责服务器应用的开发和维护。后台部不仅仅是一个敲代码的部门，更是一个不断学习，互帮互助的团队。在这里，通过完成大大小小的项目，你能提前学习甚至学到课堂上学不到的知识，在团队协作中学会应用开发与系统维护。"""
+      bio = """他们是审美艺术的创造者，网页的美工及活动海报、宣传册的平面设计都由他们来完成。"""
+
+    [[params.team.members]]
+      img = "logo.jpg"
+      name = "外联部"
+      position = "社团的公关策划人"
+      social = [
+        
+        ["fa-qq", "#"],
+        ["fa-weixin", "#"]
+      ]
+      bio = """主要负责组织线上线下的活动，并为其设计宣传方案。依据社团需要，与学校内部组织，如各大社团、协会；以及外部组织，如学校周边商家进行沟通联络，以达到推广杭电助手此平台、组织社团大型活动的目的。"""
+
+    [[params.team.members]]
+      img = "logo.jpg"
+      name = "运营部"
+      position = "创意的制造者"
+      social = [
+        
+        ["fa-qq", "#"],
+        ["fa-weixin", "#"]
+      ]
+      bio = """负责微信消息的推送，整体运营数据的分析，运营内容的更新以及邮箱、微信、微博的更新与日常管理。"""
+
+
+    [[params.team.members]]
+      img = "logo.jpg"
+      name = "办公室"
+      position = "社团内部的建设者"
+      social = [
+        ["fa-qq", "#"],
+        ["fa-weixin", "#"]
+      ]
+      bio = """在社团里主要负责策划组织社团内部活动，收集信息与整理文档资料，与社团中各个部门沟通交流。"""
 
   # Client section
     [params.clients_list]
