@@ -85,7 +85,7 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "服务"
-    subtitle = "教务，生活，更多"
+    subtitle = "与杭电师生一起成长"
 
     [[params.services.row]]
 
@@ -301,7 +301,7 @@ googleAnalytics = ""
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -328,7 +328,7 @@ googleAnalytics = ""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "联系我们"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "发送"
@@ -390,27 +390,27 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Powered by hugo"
 
     [[params.footer.social]]
-      icon = "fa-twitter"
+      icon = "fa-github"
       link = "#"
-      title = "Twitter"
+      title = "GitHub"
 
     [[params.footer.social]]
-      icon = "fa-facebook"
+      icon = "fa-qq"
       link = "#"
-      title = "Facebook"
+      title = "QQ"
 
     [[params.footer.social]]
-      icon = "fa-linkedin"
+      icon = "fa-weixin"
       link = "#"
-      title = "LinkedIn"
+      title = "Weixin"
 
     [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+      text = "杭电导航"
+      link = "https://help.hduhelp.com/"
 
     [[params.footer.quicklinks]]
-      text = "Terms of Use"
-link = "#"
+      text = "报错"
+      link = "#"
