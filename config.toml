@@ -78,7 +78,7 @@ googleAnalytics = ""
     # the 'static/img' folder.
     title = "杭电校园新媒体的先行者"
     subtitle = "杭电助手的官方网站"
-    buttonText = "关注微信公众号"
+    buttonText = "了解更多"
 
 
   # Services section
@@ -168,37 +168,37 @@ googleAnalytics = ""
       img = "2.jpg"
       date = "2014-3"
       title = "荣获学校十佳社团"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = ""
 
     [[params.about.events]]
       img = "qing-chun-bang-yang.png"
       date = "2014-5"
       title = "荣获杭州电子科技大学“青春榜样”"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = ""
 
     [[params.about.events]]
       img = "tencent-weixiao-quan-guo-gao-xiao-gong-zhong-hao-pai-hang.jpg"
       date = "2016-9"
       title = "腾讯微校全国高校公众号排行榜第七"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = ""
 
     [[params.about.events]]
       img = "hong-chuan-bei.jpg"
       date = "2016-10"
       title = "社团招新系统“红船杯”获奖"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = ""
 
     [[params.about.events]]
       img = "tencent-weixiao-quan-guo-gao-xiao-gong-zhong-hao-pai-hang-2016-nian-du-bang-fu-wu-hao-pai-hang-bang-di-yi.jpg"
       date = "2016-12"
       title = "腾讯微校2016高校服务号排行榜榜首"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = ""
 
     [[params.about.events]]
       img = "4.jpg"
       date = "xxxx"
       title = "校五星社团"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = ""
 
 
   # Team section

@@ -4,3 +4,13 @@ div.team-member img {
 .navbar-default .navbar-brand {
 	color:#2492ff;
 }
+.service-qrcode {
+	margin-top:50px;
+}
+
+#about {
+	padding-top:100px;
+}
+#services {
+	padding-bottom:100px;
+}
