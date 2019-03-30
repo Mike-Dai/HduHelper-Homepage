@@ -23,7 +23,7 @@ googleAnalytics = ""
 
   # Link custom assets relative to /static
   custom_css = ["css/custom_style.css"]
-  custom_js  = []
+  custom_js  = ["js/custom.js"]
   favicon    = "img/logo.jpg"
 
   # Possibility to disable external/additional fonts
