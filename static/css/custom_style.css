@@ -14,3 +14,15 @@ div.team-member img {
 #services {
 	padding-bottom:100px;
 }
+#show-timeline {
+	text-align: center;
+	width:170px;
+	height:170px;
+	border: 7px solid #f1f1f1;
+	border-radius: 100%;
+	text-align: center;
+	color: #fff;
+	background-color: #2053ab;
+	margin-top:50px;
+	cursor: pointer;
+}
